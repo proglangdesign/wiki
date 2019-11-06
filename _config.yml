@@ -1,3 +1,4 @@
+url: "https://proglangdesign.net"
 baseurl: /wiki
 defaults:
   -
@@ -5,3 +6,5 @@ defaults:
       path: ""
     values:
       layout: "default"
+plugins:
+  - jekyll-sitemap

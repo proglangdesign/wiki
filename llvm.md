@@ -44,4 +44,4 @@ Although the LLVM website provides excellent detailed installation instructions,
 
 ## WebAssembly support
 
-LLVM does include an experimental code generator for [WebAssembly](https://www.reddit.com/r/ProgrammingLanguages/wiki/gen/webassembly). However, since this generator is experimental, it is not built as part of the standard build process. The way you ask for it is by adding -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=WebAssembly to your CMake invocation. Once built, you can generate WebAssembly code using the target triple of "wasm32-unknown-unknown-wasm".
+LLVM does include an experimental code generator for [WebAssembly](/wiki/webassembly). However, since this generator is experimental, it is not built as part of the standard build process. The way you ask for it is by adding -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=WebAssembly to your CMake invocation. Once built, you can generate WebAssembly code using the target triple of "wasm32-unknown-unknown-wasm".
