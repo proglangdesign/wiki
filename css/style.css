@@ -1,0 +1,75 @@
+body { width: 75%; min-height: 100vh; margin: 0 auto; padding-bottom: 100px; color: #444; background-color:white;}
+:root { font-size: 16px; font-family: sans-serif; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#pagelink {
+    /* needed to make the $ the right color */
+    color: #805AC3;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h1, h2 {
+    color: black;
+}
+
+header nav, .edit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header nav a, .edit a { margin-left: 20px; }
+
+main { max-width: 960px; margin: 0 auto; }
+
+.shell { text-transform: lowercase; font-family: monospace; }
+.shell:before { content: "$ "; }
+
+#irc li { list-style-type: none; }
+.shell-list li:before { content: "$ "; font-family: monospace; }
+li { padding: 3px 0; }
+p, li { max-width: 75ch; }
+section > h2, section > h3 { padding-top: 15px; padding-bottom: 5px; }
+
+.button {
+  background-color: #805AC3;
+  margin: 10px 0;
+  padding: 10px;
+  background-position: calc(100% - 5px) center;
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  color: white;
+}
+
+a { color: #805AC3; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+@media (max-width: 960px) {
+  header h1 { font-size: 1.25rem; }
+}
+
+@media (max-width: 720px) {
+  body { width: 90%; }
+  header { flex-direction: column; padding: 10px 0; }
+  header h1 { text-align: center; }
+  header nav, .edit { justify-content: center; margin-top: 10px; }
+  header nav a:first-child, .edit a:first-child { margin: 0; }
+}
+
+#pagelink::after {
+  content: "_";
+  animation: blinker 1.75s step-start infinite;
+}
+
+@keyframes blinker {
+  30% {
+    opacity: 0;
+  }
+}

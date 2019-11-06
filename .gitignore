@@ -1,0 +1,6 @@
+# Emacs backup files
+*~
+
+# Jekyll generated files
+.jekyll-cache/
+_site/

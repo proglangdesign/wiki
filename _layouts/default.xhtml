@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{ page.title }}</title>
+
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | relative_url }}" />
+
+  <link rel="canonical" href="https://proglangdesign.net{{ page.permalink | relative_url }}" />
+</head>
+<body>
+<header>
+  <span class="shell" id="pagelink"><a href="/">proglangdesign.net</a></span>
+  <div class="edit">
+    <a href="https://github.com/proglangdesign/wiki/blob/master{% if page.file %}{{ page.file }}{% else %}{{ page.permalink }}.md{% endif %}">Edit this page</a>
+  </div>
+  <nav>
+    <a href="/#projects">Projects</a>
+    <a href="/#resources">Resources</a>
+    <a href="/wiki/">Wiki</a>
+  </nav>
+</header>
+<main>{{ content }}</main>
+</body>
+</html>
