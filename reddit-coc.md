@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /reddit-coc
 ---
 # Code of conduct

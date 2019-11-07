@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /challenges
 ---
 # Challenges for your PL

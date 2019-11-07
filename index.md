@@ -1,7 +1,6 @@
 ---
 permalink: /
 file: /index.md
-layout: default
 ---
 ![](https://avatars3.githubusercontent.com/u/28988616)
 
@@ -13,9 +12,13 @@ As this wiki is in its infancy, there is no strict organizational structure yet,
 
 ## Articles
 
-* [Welcome](/wiki/)
+* [Welcome](/wiki/) [you are here]
 * [Challenges for your PL](/wiki/challenges)
-* [LLVM](/wiki/llvm)
-* [Reading List](/wiki/reading-list)
+* [Reading List](/wiki/reading-list): A curated list of useful resources.
+* [Resources](/wiki/resources): An uncurated list of a lot of resources.
 * [Reddit CoC](/wiki/reddit-coc)
+
+Backend stuff:
+
+* [LLVM](/wiki/llvm)
 * [WebAssembly](/wiki/webassembly)

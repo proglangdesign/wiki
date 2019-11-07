@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: /reading-list
 ---
 # /r/ProgrammingLanguages Reading List
