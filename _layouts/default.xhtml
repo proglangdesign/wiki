@@ -15,9 +15,6 @@
 <body>
 <header>
   <span class="shell" id="pagelink"><a href="/">proglangdesign.net</a></span>
-  <div class="edit">
-    <a href="https://github.com/proglangdesign/wiki/blob/master{% if page.file %}{{ page.file }}{% else %}{{ page.permalink }}.md{% endif %}">Edit this page</a>
-  </div>
   <nav>
     <a href="/#projects">Projects</a>
     <a href="/#resources">Resources</a>
@@ -25,5 +22,14 @@
   </nav>
 </header>
 <main>{{ content }}</main>
+<footer>
+  <hr />
+  <p>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+  <ul>
+    <li><a href="https://github.com/proglangdesign/wiki/commits/master{% if page.file %}{{ page.file }}{% else %}{{ page.permalink }}.md{% endif %}">A history of edits to this page</a></li>
+    <li><a href="https://github.com/proglangdesign/wiki/blob/master{% if page.file %}{{ page.file }}{% else %}{{ page.permalink }}.md{% endif %}">A page which includes a list of contributors to this page</a></li>
+  </ul>
+  <p><a href="https://github.com/proglangdesign/wiki/blob/master{% if page.file %}{{ page.file }}{% else %}{{ page.permalink }}.md{% endif %}">Edit this page on GitHub!</a></p>
+</footer>
 </body>
 </html>

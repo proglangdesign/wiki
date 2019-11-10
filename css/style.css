@@ -27,7 +27,7 @@ header nav, .edit {
 }
 header nav a, .edit a { margin-left: 20px; }
 
-main { max-width: 960px; margin: 0 auto; }
+main, footer { max-width: 960px; margin: 0 auto; }
 
 .shell { text-transform: lowercase; font-family: monospace; }
 .shell:before { content: "$ "; }
