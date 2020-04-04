@@ -16,7 +16,7 @@ Additionally, the /r/ProgrammingLanguages server is not the place to debate poli
 ## The Members List
 You might have noticed that the members list isn't divided into sections. All of us here are interested in programming language design and implementation, and we don't want to force artificial distinctions between members of our community. However, there are a couple convenience roles to facilitate easier communication:
 * 💚 People with **green** names are **moderators**. Ask one of us (or ping `@Mods`) if you want something done about the discord server itself, like a new channel, or a new emote, or the rare instances when there's a troublemaker in the chat.
-* 🧡 People with **orange** names are **language developers**, whose languages have a separate channel in our "Projects" section. **This does not mean that only the orange names are actively developing a language!** However, when you click on the profile of someone with an orange name, they will have a purple lang: LanguageName role - that's the name of their language, which you should be able to find a separate channel for under the "Projects" heading in the channel list. Feel free to ask them about their language there!
+* 🧡 People with **orange** names are **language developers**, whose languages have a separate channel in our "Projects" section. **This does not mean that only the orange names are actively developing a language!** However, when you click on the profile of someone with an orange name, they will have a purple `@lang: LanguageName` role - that's the name of their language, which you should be able to find a separate channel for under the "Projects" heading in the channel list. Feel free to ask them about their language there!
 
 ## Channel Overview
 ### Meta
