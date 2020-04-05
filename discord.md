@@ -3,7 +3,7 @@ permalink: /discord
 ---
 # [The /r/ProgrammingLanguages Discord](https://discord.gg/4Kjt3ZE)
 ## Rules
-These rules are guidelines for the moderation team just as much as they are for the members of this community. They are not much different than the ones on [/r/ProgrammingLanguages](https://reddit.com/r/ProgrammingLanguages).
+These rules are guidelines for the moderation team just as much as they are for the members of this community. They are an elaboration of the rules for [/r/ProgrammingLanguages](https://reddit.com/r/ProgrammingLanguages).
 
 ### 1. Discussion should stay on topic
 We are a community dedicated to the discussion of programming language design, so discussion should remain related to this topic. Use the appropriate Discord channel, and do not use the off-topic channels for unwanted promotional or NSFW material. Nobody's going to mind if you go slightly off-topic in a channel, but don't derail ongoing conversations, and at least move to the relevant channel if you find that the conversation has gone off-topic. 
