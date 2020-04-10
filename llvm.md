@@ -44,3 +44,11 @@ Although the LLVM website provides excellent detailed installation instructions,
 ## WebAssembly support
 
 LLVM does include an experimental code generator for [WebAssembly](/wiki/webassembly). However, since this generator is experimental, it is not built as part of the standard build process. The way you ask for it is by adding -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=WebAssembly to your CMake invocation. Once built, you can generate WebAssembly code using the target triple of "wasm32-unknown-unknown-wasm".
+
+## Bindings
+
+Since LLVM is such a popular platform, there are a number of bindings for popular 
+languages.
+
+* LLVM's official bindings: [Go](https://github.com/llvm-mirror/llvm/tree/master/bindings/go), [OCaml](https://github.com/llvm-mirror/llvm/tree/master/bindings/ocaml), [Python](https://github.com/llvm-mirror/llvm/tree/master/bindings/python)
+* Unofficial bindings, which are not updated with LLVM and may be out of date: [.NET](https://github.com/microsoft/LLVMSharp), [Haskell](https://hackage.haskell.org/package/llvm-hs), [Rust](https://crates.io/crates/llvm-sys)
