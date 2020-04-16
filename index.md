@@ -10,15 +10,17 @@ This is a community wiki for collecting information about programming language d
 
 As this wiki is in its infancy, there is no strict organizational structure yet, and there is no individual "in charge". Please, contribute freely.
 
-## Articles
+## Information
 
 * [Welcome](/wiki/) [you are here]
-* [Challenges for your PL](/wiki/challenges)
 * [Reading List](/wiki/reading-list): A curated list of useful resources.
 * [Resources](/wiki/resources): An uncurated list of a lot of resources.
 * [Reddit CoC](/wiki/reddit-coc)
 
-Backend stuff:
+## Articles
 
-* [LLVM](/wiki/llvm)
+* [Challenges for your PL](/wiki/challenges)
+* [Backends](/wiki/backend)
+    * [LLVM](/wiki/llvm)
+    * [JVM](/wiki/jvm)
 * [WebAssembly](/wiki/webassembly)
