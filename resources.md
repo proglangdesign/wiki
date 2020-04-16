@@ -84,7 +84,7 @@ Also check out the [/r/ProgrammingLanguages Reading List](/wiki/reading-list).
 
 ### Virtual Machines
 * [Virtual Machine Showdown: Stack Versus Registers](https://www.usenix.org/legacy/events/vee05/full_papers/p153-yunhe.pdf>)
-* [Comparison of Earlang Runtime System and Java Virtual Machine](http://ds.cs.ut.ee/courses/course-files/To303nis%20Pool%20.pdf)
+* [Comparison of Erlang Runtime System and Java Virtual Machine](http://ds.cs.ut.ee/courses/course-files/To303nis%20Pool%20.pdf)
 * [A No-Frills Introduction to Lua 5.1 VM Instructions](http://luaforge.net/docman/83/98/ANoFrillsIntroToLua51VMInstructions.pdf)
 * [Virtual Machine DIspatch Experiments in Rust](https://pliniker.github.io/post/dispatchers/)
 * [Write your Own Virtual Machine](https://justinmeiners.github.io/lc3-vm/)
