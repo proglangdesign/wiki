@@ -32,6 +32,7 @@ The Meta category is dedicated to discussing the actual platforms that our commu
 * `#off-topic` is for anything unrelated to programming (except for topics forbidden by the rules, such as politics, religion, or philosophy). You can think of it as a relaxed hang-out channel.
 * `#programming` is for discussing programming and programming projects *not* related to programming languages themselves. Have a cool non-PL project that you're working on? Discuss it here!
 * `#jobs` is for folks looking for employment or employees, mainly in programming language development.
+* `#hey-look` is the channel for showing your achievements. New academic paper? Your language can now say "Hello World"? A new blog post or live-stream announcement? Anything you want to share!
 
 ### PLT&D
 This is the main section of our Discord, for discussing programming language theory and design. You'll find channels devoted to every step of developing a programming language here, and a `#general` plt&d chat. Feel free to ask there if you don't think any of the other channels will fit your topic better.
