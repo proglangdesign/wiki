@@ -61,6 +61,7 @@ Also check out the [/r/ProgrammingLanguages Reading List](/wiki/reading-list).
 * [LLVM backend development by example (RISC-V)](https://www.youtube.com/watch?v=AFaIP-dF-RA)
 * [Creating an LLVM Backend](https://jonathan2251.github.io/lbd/)
 * [Dart on LLVM](https://medium.com/dartlang/dart-on-llvm-b82e83f99a70): Some slight actual usage of llvm's gc.statepoint and gc.reloate thats not documentation.
+* [Mapping high level construct to LLVM IR](https://mapping-high-level-constructs-to-llvm-ir.readthedocs.io/en/latest/README.html)
 * LLVM Stackmap example usage:
   * [Stack Map Format](https://llvm.org/docs/StackMaps.html#stackmap-format)
   * <https://github.com/dotnet/llilc/blob/master/lib/GcInfo/GcInfo.cpp>
