@@ -23,4 +23,5 @@ As this wiki is in its infancy, there is no strict organizational structure yet,
 * [Backends](/wiki/backend)
     * [LLVM](/wiki/llvm)
     * [JVM](/wiki/jvm)
+    * [FIRM](/wiki/firm)
 * [WebAssembly](/wiki/webassembly)
