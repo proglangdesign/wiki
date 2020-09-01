@@ -55,26 +55,69 @@ It's also possible to share your screen in those channels, if you'd like to stre
 ### Project Channels
 Members of our community may get a channel for their project in the `Projects` category.
 
-#### How to get a project channel
-Just go ahead and ping the mods (`@Mods`) in `#meta`.
-The only requirements are that you are a member of the project, and that it's under active development.
+#### How can I get a channel for my project?
+You can get a channel for a project if:
+* It is under active development
+* It is related to programming languages (although not necessarily a programming language itself)
+* You are a member of the project's team
 
-When we create your channel, we will also create a role for members of your project.
-We will add you to both the `@Language Developers` role and the role for your language.
-You will have full permissions for your channel, including the ability to set the topic or pin messages.
+Before you get a channel, I would recommend that:
+* You have some sort of documentation to help explain your project to other users.
+* You are an active member of the community and expect to regularly discuss your language with other users.
 
-#### Getting your project's icon as an emoji
-If you include your project's square icon (preferably in PNG format, with a colored or transparent background), we will add your icon as an emoji.
+When you are ready to get your channel, just go ahead and ping the `@Mods` in `#meta`.
+We will create your channel and give you a role for your project,
+and the `@Language Developers` role if your project is a programming language.
+
+#### What can I do with my channel?
+You are given full moderator permissions over your channel, including the ability to:
+* Change the channel's topic
+* Pin or delete messages
+* Create webhooks
+* Give other users these permissions
+
+You may also ask the `@Mods` to give other project members your project's role.
+
+It is your channel and you can do what you like with it as long as you abide by the server rules.
+
+If your project has its own Discord server, you may link to it,
+but you should not create a channel if you only intend to use it to direct people to your server.
+
+#### Git webhooks
+You have permission in your channel to configure a webhook to recieve GitHub and GitLab notifications in your channel.
+[Here's a gist that describes how to do it.](https://gist.github.com/jagrosh/5b1761213e33fc5b54ec7f6379034a22)
+
+The purpose of the webhook is get server members involved in the discussion of your project.
+To reduce noise, you *must not* enable star, fork, or commit notifications,
+because those sorts of messages produce lots of noise while rarely leading to discussion.
+
+I would recommend no more than these hooks:
+* Published releases
+* Published packages
+* Issues and issue comments
+* Pull requests, pull request comments, and pull request reviews
+* Changes to the project's collaborators
 
 #### Including your project on the website
 If your project is reasonably mature and has a good landing page (e.g. a website or detailed README), I encourage you to go ahead and [showcase your work](https://github.com/proglangdesign/proglangdesign.github.io/#adding-your-project) on [the website's projects list](https://proglangdesign.net/#projects)!
 
 You may simply open up a pull request to do this. The Discord moderators do not need to be involved.
 
-#### The policy for inactive channels
-1. If no messages have been sent to a project's channel for three months, it will be moved to the "Inactive Projects" category.
-2. If a project's channel remains in the "Inactive Projects" category for three more months, the moderators will attempt to contact the owner of the channel.
-3. If the channel's owner does not request for the channel's life to be extended (e.g. for when the developer needs to be on hiatus for more than six months), the channel's contents will be downloaded as a text file (not including e.g. file attachments), and that file will then be uploaded to `#archive`.
+#### Project emoji
+If you include your project's square icon in PNG or SVG format with a colored or transparent background,
+we will add it as an emoji.
+
+#### Project bots
+If you make a Discord bot, like an interpreter for your language, we will add it to your channel,
+although you will have to find somewhere to host it yourself.
+I highly encourage you to do this because language bots are awesome and we need more of them.
+
+Currently our server has bots for `#calc=` and `#volpe`, and [`#proglangdesign` has some bots of its own](https://proglangdesign.net/#irc-bots).
+
+#### Inactive project channels
+1. After three months of inactivity, channels are automatically moved to the "Inactive Projects" category.
+2. After three months in the inactive projects category, moderators will attempt to contact the owner of the channel.
+3. If the channel's owner does not request for the channel's life to be extended (e.g. for when the developer needs to be on hiatus for more than 6 months), the channel's contents will be downloaded as a text file (not including e.g. file attachments), and that file will then be uploaded to `#archive`.
 
 You may remove your project from the "Inactive Projects" category at any time by sending a message to the channel.
 If you are planning on going on a (temporary) hiatus, you may voluntarily put your channel into the "Inactive Projects" category using the `!archive` command.
@@ -82,10 +125,3 @@ If you are planning on quitting your project permanently, please notify a modera
 Finally, as you have full permissions over your channel, you may delete your channel (without backup!) at any time.
 
 Thanks to Timon Passlick for [the bot which automates the inactive projects list](https://github.com/proglangdesign/channel-sorter).
-
-#### Git webhooks
-You have permission in your channel to configure a webhook to recieve Git notifications in your channel (a feature which has built-in support from both GitHub and GitLab).
-[Here's a gist that describes how to do it.](https://gist.github.com/jagrosh/5b1761213e33fc5b54ec7f6379034a22)
-
-There are some caveats, though: many users consider webhook notifications unnecessarily noisy and will mute your channel if you enable them (it is not possible to mute only the webhook).
-I would personally recommend restricting your webhook to only generate notifications for issues and pull requests.
