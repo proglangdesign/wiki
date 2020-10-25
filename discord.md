@@ -39,14 +39,6 @@ This is the main section of our Discord, for discussing programming language the
 
 `#beginners` is intended to be the place to go for folks new to PLT&D. The moderators are going to be extra strict on moderation there - it's supposed to be a welcoming place where someone without proglangs knowledge can ask how to get started and get help with their proglang journey, and being unwelcoming there is... unwelcome.
 
-### The IRC Bridge
-We have two bridged Freenode IRC channels: `#proglangdesign` and `##programminglanguages`.
-`##programminglanguages` is an alternative channel with stricter moderation, controlled by our moderators, and is subject to the same rules as the Discord server.
-
-**Message edits and removals are not relayed to the IRC side.** In addition, emoji and file uploads are not guaranteed to display properly on all IRC clients due to the more diverse nature of their deployment.
-
-**If you suspect that the bridge may not be working properly, please notify `@jamestmartin#7117`.** The sooner you tell me, the sooner I can fix it.
-
 ### Voice Channels
 Go here to have an audio chat with other people! If you can't talk, or want to share a link relevant to what you're discussing, #voice-text is there as a supplemental text chat for the voice channels.
 
@@ -112,7 +104,7 @@ If you make a Discord bot, like an interpreter for your language, we will add it
 although you will have to find somewhere to host it yourself.
 I highly encourage you to do this because language bots are awesome and we need more of them.
 
-Currently our server has bots for `#calc=` and `#volpe`, and [`#proglangdesign` has some bots of its own](https://proglangdesign.net/#irc-bots).
+Currently our server has bots for `#aardvark`, `#calc=`, and `#volpe`.
 
 #### Inactive project channels
 1. After three months of inactivity, channels are automatically moved to the "Inactive Projects" category.
