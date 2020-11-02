@@ -29,3 +29,7 @@ Make sure your programming language is well-rounded by performing some of these 
 
 ## Intermediate
 * Game of Life
+
+## Domain Specific
+* Graphical User Interfaces
+  * [7 GUIs](https://eugenkiss.github.io/7guis/)
