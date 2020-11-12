@@ -5,6 +5,8 @@ permalink: /discord
 ## Rules
 These rules are guidelines for the moderation team just as much as they are for the members of this community. They are an elaboration of the rules for [/r/ProgrammingLanguages](https://reddit.com/r/ProgrammingLanguages).
 
+If you need to contact the staff about a possible rules violation, please ping `@Mods` or DM `@ModMail`.
+
 ### 1. Discussion should stay on topic
 We are a community dedicated to the discussion of programming language design, so discussion should remain related to this topic. Use the appropriate Discord channel, and do not use the off-topic channels for unwanted promotional or NSFW material. Nobody's going to mind if you go slightly off-topic in a channel, but don't derail ongoing conversations, and at least move to the relevant channel if you find that the conversation has gone off-topic. 
 
@@ -14,33 +16,31 @@ While we encourage discussion, and yes, even disagreements, we require them to r
 Additionally, the /r/ProgrammingLanguages server is not the place to debate politics, religion, or philosophy, and such debates often lead to bad blood all around. A number of our members are interested in goodwill discussion, however, so we do recommend joining our friends at [The Philosophy Chat](https://discord.gg/MBqq2uh) if you're seeking productive discussion on the topic.
 
 ## The Members List
-You might have noticed that the members list isn't divided into sections. All of us here are interested in programming language design and implementation, and we don't want to force artificial distinctions between members of our community. However, there are a couple convenience roles to facilitate easier communication:
-* 💚 People with **green** names are **moderators**. Ask one of us (or ping `@Mods`) if you want something done about the discord server itself, like a new channel, or a new emote, or the rare instances when there's a troublemaker in the chat.
-* 🧡 People with **orange** names are **language developers**, whose languages have a separate channel in our "Projects" section. **This does not mean that only the orange names are actively developing a language!** However, when you click on the profile of someone with an orange name, they will have a purple `@lang: LanguageName` role - that's the name of their language, which you should be able to find a separate channel for under the "Projects" heading in the channel list. Feel free to ask them about their language there!
+* 💚 People with **green** names are **moderators**. You can contact us by pinging `@Mods` or DMing `@ModMail`, or if it's less urgent, sending a message to `#meta`.
+* 🧡 People with **orange** names are **language developers**, who have a channel for their language in the "Projects" section. You can see what languages they're working on by right clicking on their name and seeing their purple `@lang: LanguageName` role. Feel free to ask them about their language in their channel!
 
 ## Channel Overview
-### Meta
-The Meta category is dedicated to discussing the actual platforms that our community uses:
-* `#announcements` is used for important announcements regarding the Discord server or our community as a whole.
-* `#arrivals` is a list of "welcome" messages for newly-joining users. You can see and greet the new members here.
-* `#meta` is for discussion pertaining to the Discord server itself. If you want the mods to make any changes to the Discord, discuss them there.
-* `#subreddit` is for talking about [/r/ProgrammingLanguages](https://reddit.com/r/ProgrammingLanguages). Slavfox posts notifications about the monthly discussion threads there.
-* `#website` is for discussing [the website](https://proglangdesign.net/). A GitHub webhook is set up there, so you'll see when changes are made to it.
-* `#wiki` is for discussion regarding this this (work-in-progress) wiki.
+### Info
+* `#rules`: The server rules.
+* `#info`: A quick guide to the server.
+* `#announcements`: Official server announcements.
 
-### General Chat
-* `#off-topic` is for anything unrelated to programming (except for topics forbidden by the rules, such as politics, religion, or philosophy). You can think of it as a relaxed hang-out channel.
-* `#programming` is for discussing programming and programming projects *not* related to programming languages themselves. Have a cool non-PL project that you're working on? Discuss it here!
-* `#jobs` is for folks looking for employment or employees, mainly in programming language development.
-* `#hey-look` is the channel for showing your achievements. New academic paper? Your language can now say "Hello World"? A new blog post or live-stream announcement? Anything you want to share!
+### General
+* `#arrivals`: See & greet new users. Feel free to introduce yourself!
+* `#meta`: Metadiscussion about the Discord, [/r/ProgrammingLanguages](https://reddit.com/r/ProgrammingLanguages), [the website](https://proglangdesign.net/) ([source](https://github.com/proglangdesign/proglangdesign.github.io)), and [this wiki](https://proglangdesign.net/wiki/) ([source](https://github.com/proglangdesign/wiki))
+* `#hey-look`: The place to show off your achievements, or announce live-streams, blog posts, et cetera. Discussions should be moved to another channel.
+* `#jobs`: For folks looking for employment or employees, mainly in programming language development.
+* `#programming`: discuss programming and programming projects *not* related to programming languages themselves.
+* `#off-topic`: Semi-serious (i.e. no shitposting or dog pics) off-topic discussions unrelated to programming (except for topics forbidden by the rules, such as politics, religion, or philosophy).
+* `#hangout-chat-☕`: Casual conversation.
 
 ### PLT&D
-This is the main section of our Discord, for discussing programming language theory and design. You'll find channels devoted to every step of developing a programming language here, and a `#general` plt&d chat. Feel free to ask there if you don't think any of the other channels will fit your topic better.
+This is the main section of our Discord, for discussing programming language theory and design. You'll find channels devoted to every step of developing a programming language here, and a `#pltd-general` plt&d chat. Feel free to ask there if you don't think any of the other channels will fit your topic better.
 
 `#beginners` is intended to be the place to go for folks new to PLT&D. The moderators are going to be extra strict on moderation there - it's supposed to be a welcoming place where someone without proglangs knowledge can ask how to get started and get help with their proglang journey, and being unwelcoming there is... unwelcome.
 
 ### Voice Channels
-Go here to have an audio chat with other people! If you can't talk, or want to share a link relevant to what you're discussing, #voice-text is there as a supplemental text chat for the voice channels.
+Go here to have an audio chat with other people! If you can't talk, or want to share a link relevant to what you're discussing, `#voice-text` is there as a supplemental text chat for the voice channels.
 
 It's also possible to share your screen in those channels, if you'd like to stream your development.
 
