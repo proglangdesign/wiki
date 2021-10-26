@@ -16,11 +16,11 @@ If contributing, add your resource to the appropriate section, give a short desc
 
 * [Crafting Interpreters](http://www.craftinginterpreters.com/) by Bob Nystrom (/u/munificent)
  
-  An ongoing book about writing interpreters by Bob Nystrom of [Game Programming Patterns](http://gameprogrammingpatterns.com/) fame. Very comprehensive, includes code both in Java and C.
+  A book about writing interpreters by Bob Nystrom of [Game Programming Patterns](http://gameprogrammingpatterns.com/) fame. Very comprehensive, includes code both in Java and C.
 
 * [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/) by Jack Crenshaw
 
-  An old (1988-1995), non-technical series about writing a simple compiler in Turbo Pascal. Like most books on this topic, most of the knowledge contained within is still relevant today, though. 
+  An old (1988-1995), non-technical series about writing a simple compiler in Turbo Pascal. Like most books on this topic, most of the knowledge contained within is still relevant today, though.
 
 ## Compiler architecture
 
@@ -33,6 +33,12 @@ If contributing, add your resource to the appropriate section, give a short desc
 * [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code)
 
   Collects solutions to the same problem in as many different programming languages as possible. Helpful for seeing how other languages handle certain tasks, and getting a better idea of what your syntax will be like.
+
+## Virtual Machine design
+
+* [So You Want to Build a Language VM](https://blog.subnetzero.io/post/building-language-vm-part-01/) by Fletcher Haynes
+
+  A series of articles detailing how to build a register VM in Rust. [A part 0](https://blog.subnetzero.io/post/building-language-vm-part-00/) covering some of hardware basics - like what's an assembler, a register, etc. - is also available.
 
 # Books
 
