@@ -2,18 +2,66 @@
 permalink: /discord
 ---
 # [The /r/ProgrammingLanguages Discord](https://discord.gg/4Kjt3ZE)
+
 ## Rules
-These rules are guidelines for the moderation team just as much as they are for the members of this community. They are an elaboration of the rules for [/r/ProgrammingLanguages](https://reddit.com/r/ProgrammingLanguages).
 
-If you need to contact the staff about a possible rules violation, please ping `@Mods` or DM `@ModMail`.
+We are a community dedicated to furthering programming language design and
+implementation.  We value constructive, healthy, inclusive discussions and ask
+that you abide by the following rules to help us keep this space friendly and
+welcoming:
 
-### 1. Discussion should stay on topic
-We are a community dedicated to the discussion of programming language design, so discussion should remain related to this topic. Use the appropriate Discord channel, and do not use the off-topic channels for unwanted promotional or NSFW material. Nobody's going to mind if you go slightly off-topic in a channel, but don't derail ongoing conversations, and at least move to the relevant channel if you find that the conversation has gone off-topic. 
+1. Keep our community safe. To ensure that this remains a safe and inclusive
+   space for everyone to participate, we will not tolerate:
+	* Harassment, including insults, threats, rudeness, doxing, trolling,
+      personal attacks, discrimination and sexualized attention.
+    * Adult content, including NSFW/NSFL or content with sexual undertones.
 
-### 2. Be civil and respectful
-While we encourage discussion, and yes, even disagreements, we require them to remain civil, respectful, and constructive. We don’t want you here if your behavior disrupts the community. Examples of disruptive behaviors include, but are not limited to: insults, threats, intimidation, discrimination, personal attacks, harassment, rudeness, doxing, excessive negativity, spamming, trolling, excessive melodrama, and sexualized attention. **Use common sense**. If someone tells you to stop, there's a good chance you're being disruptive. Don't be a problem if you don't want to be handled like one.
+2. Keep the focus on programming languages. To avoid disrupting or blocking
+   discussion:
+	* Avoid extensive off-topic chat: If you find yourself going far off-topic,
+ 	  bring it back to programming languages.
+	* Avoid noise: Don't shitpost, spam, or post unwanted promotional material.
+	  You are allowed to link other Discord servers if it makes sense in the
+      discussion.
+   Relevant job postings should be posted on the careers channel.
 
-Additionally, the /r/ProgrammingLanguages server is not the place to debate politics, religion, or philosophy, and such debates often lead to bad blood all around. A number of our members are interested in goodwill discussion, however, so we do recommend joining our friends at [The Philosophy Chat](https://discord.gg/MBqq2uh) if you're seeking productive discussion on the topic.
+3. Keep our community kind: There are a lot of people here with a wide range of
+   backgrounds and levels of experience.
+    * Support others: If you would like to share your experience, do so
+      supportively.
+    * Avoid:
+   	   * Insulting
+   	   * Harassing
+   	   * Trolling
+   	   * Flaming
+   	   * Bad taste jokes
+   	   * Language bashing
+   	   * Zealotry
+    * Be nuanced: tradeoffs exist in language design! Express your opinions
+      without minimizing others' opinions, and avoid framing your own
+      opinions and preferences as fact, for example by saying “X is the
+      best“, “Y is terrible” or “X is better than Y” without explaining why
+      you think this.
+    * Avoid:
+       * Pushing opinions as facts
+       * Being overly forceful with opinions
+
+### Contact options
+
+Please reach out if you feel hurt, attacked, offended, or witness something
+that could reasonably be considered offensive in the server. The mods would
+rather be notified too often than not often enough. We'd also love to hear
+your thoughts, suggestions, and feedback!
+ * Publicly: ping the @Mod in chat.
+ * Privately: send a direct message to @ModMail, or message a moderator
+   directly.
+
+### Enforcement
+
+Moderators have ultimate discretion over interpretation of events and
+interpretation and enforcement of the rules on a case-by-case nature. Not
+knowing the rules is not an excuse, and attempts to work around these rules
+through pushing boundaries runs the risk of a permanent ban.
 
 ## The Members List
 * 💚 People with **green** names are **moderators**. You can contact us by pinging `@Mods` or DMing `@ModMail`, or if it's less urgent, sending a message to `#meta`.
