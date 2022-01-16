@@ -100,10 +100,10 @@ You can get a channel for a project if:
 * It is under active development
 * It is related to programming languages (although not necessarily a programming language itself)
 * You are a member of the project's team
+* You are an active member of the community and expect to regularly discuss your language with other users.
 
 Before you get a channel, I would recommend that:
 * You have some sort of documentation to help explain your project to other users.
-* You are an active member of the community and expect to regularly discuss your language with other users.
 
 When you are ready to get your channel, just go ahead and ping the `@Mods` in `#meta`.
 We will create your channel and give you a role for your project,
