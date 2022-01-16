@@ -77,15 +77,15 @@ through pushing boundaries runs the risk of a permanent ban.
 * `#arrivals`: See & greet new users. Feel free to introduce yourself!
 * `#meta`: Metadiscussion about the Discord, [/r/ProgrammingLanguages](https://reddit.com/r/ProgrammingLanguages), [the website](https://proglangdesign.net/) ([source](https://github.com/proglangdesign/proglangdesign.github.io)), and [this wiki](https://proglangdesign.net/wiki/) ([source](https://github.com/proglangdesign/wiki))
 * `#hey-look`: The place to show off your achievements, or announce live-streams, blog posts, et cetera. Discussions should be moved to another channel.
-* `#jobs`: For folks looking for employment or employees, mainly in programming language development.
 * `#programming`: discuss programming and programming projects *not* related to programming languages themselves.
+* `#careers`: Employment & career discussion, including open positions or "I'm looking for" mainly in programming language development.  
 * `#off-topic`: Semi-serious (i.e. no shitposting or dog pics) off-topic discussions unrelated to programming (except for topics forbidden by the rules, such as politics, religion, or philosophy).
-* `#hangout-chat-☕`: Casual conversation.
 
 ### PLT&D
 This is the main section of our Discord, for discussing programming language theory and design. You'll find channels devoted to every step of developing a programming language here, and a `#pltd-general` plt&d chat. Feel free to ask there if you don't think any of the other channels will fit your topic better.
 
-`#beginners` is intended to be the place to go for folks new to PLT&D. The moderators are going to be extra strict on moderation there - it's supposed to be a welcoming place where someone without proglangs knowledge can ask how to get started and get help with their proglang journey, and being unwelcoming there is... unwelcome.
+`#beginners` and `#beginners-theory` are intended to be the place to go for folks new to PLT&D or related theory respectively.
+The moderators are going to be extra strict on moderation there - it's supposed to be a welcoming place where someone without proglangs knowledge can ask how to get started and get help with their proglang journey, and being unwelcoming there is... unwelcome.
 
 ### Voice Channels
 Go here to have an audio chat with other people! If you can't talk, or want to share a link relevant to what you're discussing, `#voice-text` is there as a supplemental text chat for the voice channels.
