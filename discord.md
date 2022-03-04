@@ -3,6 +3,12 @@ permalink: /discord
 ---
 # [The /r/ProgrammingLanguages Discord](https://discord.gg/4Kjt3ZE)
 
+This page is a rules & information reference for members of the r/PLs Discord.
+If you're finding this page from the web and would like to check it out,
+[click this link to join](https://discord.gg/4Kjt3ZE).
+
+Feel free to check out [the rest of the community](https://proglangdesign.net) as well.
+
 ## Rules
 
 We are a community dedicated to furthering programming language design and
