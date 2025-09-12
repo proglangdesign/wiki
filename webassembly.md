@@ -33,3 +33,33 @@ WebAssembly is still very early in its lifecycle and only supports what they cal
 * Some functionality is missing:  garbage collection, reference types, threads, etc. With some creativity, there are ways to get around some of these limits.
 * Few have gone down this road, so breadcrumbs that help overcome obstacles can sometimes be hard to find
 * Expect the implementation and tools to be imperfect, potentially inconsistent and almost certainly in flux.
+
+## Pointers on targeting WebAssembly directly
+
+Targeting WebAssembly directly is probably easier than targeting it via LLVM or a similar back-end, because, in order to target LLVM, you need to understand things like SSA form and PHI nodes, which are not necessary in order to target WebAssembly directly. That is, as long as you do not care about the optimizations made possible by LLVM. So, here are a few things that we think might be helpful to know:
+
+### Writing while-loops in WebAssembly
+
+When reading the WebAssembly specification, it might not be obvious at the first sight how to write a while-loop in WebAssembly. However, here is [an example of how you can implement while-loops](https://github.com/FlatAssembler/AECforWebAssembly/blob/56f4bdb11c39e1dd546bfd35180784634212762a/compiler.cpp#L1184C1-L1199C4) in your compiler that is targeting WebAssembly:
+```c++
+  } else if (text == "While") {
+    if (children.size() < 2 or children[1].text != "Loop") {
+      std::cerr << "Line " << lineNumber << ", Column " << columnNumber
+                << ", Compiler error: Corrupt AST, aborting (or else we will "
+                   "segfault)!"
+                << std::endl;
+      exit(1);
+    }
+    assembly += "(block\n\t(loop\n\t\t(br_if 1\n\t\t\t(i32.eqz\n"
+                "\t\t\t;; Compiling the condition of the while-loop: " +
+                children[0].getLispExpression() + "\n" +
+                convertToInteger32(children[0], context).indentBy(4) +
+                "\n\t\t\t)\n\t\t)\n" +
+                children[1].compile(context).indentBy(2) +
+                "\n\t\t(br 0)\n\t)\n)";
+  }
+```
+
+### Unaligned access
+
+When browsers are executing WebAssembly, they are allowing unaligned access. A 32-bit integer does not have to be at a memory address that is divisible by 4 bytes. However, that does not mean that, when writing a compiler targeting WebAssembly, you should completely ignore the problem of unaligned access. First of all, aligned access translates to faster machine code on ARM devices, and it is important that the Internet scripts written in your programming language run decently fast on mobile. Second, WebAssembly does not run only in a browser, but outside-of-the-browser tools such as WebAssembly System Interface (WASI) are not as permissive as the browsers are. WasmTime, for example, is the most popular WASI runtime, and it requires that the pointers passed to the WASI-specific functions are pointing to aligned variables. For example, it is requiring that the last argument to the `fd_write` function (the `nwritten`, pointing to an integer where the number of bytes that have been written to the file will be written) is divisible by four. Watch out for that, or else a simple "*Hello world!*" program might crash!
