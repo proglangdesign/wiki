@@ -24,7 +24,7 @@ If contributing, add your resource to the appropriate section, give a short desc
 
 ## Compiler architecture
 
-* [A Nanopass Framework for Compiler Education](http://www.cs.indiana.edu/%7Edyb/pubs/nano-jfp.pdf) - Dipanwita Sarkar, Oscar Waddell, R. Kent Dybvig
+* [A Nanopass Framework for Compiler Education](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/educational-pearl-a-nanopass-framework-for-compiler-education/1E378B9B451270AF6A155FA0C21C04A3) - Dipanwita Sarkar, Oscar Waddell, R. Kent Dybvig
 
   A paper describing compilers as series of transformations in dozens of small compiler passes.
 
